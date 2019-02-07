@@ -75,7 +75,10 @@ Metrics/BlockLength:
     - setup
     # grape api methods
     - helpers
+    - group
     - resource
+    - resources
+    - segment
     - get
     - post
     - put
