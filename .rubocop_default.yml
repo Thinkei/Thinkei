@@ -179,6 +179,10 @@ Performance:
 Rails:
   Severity: warning
 
+# Disable this because of a bug https://github.com/rubocop-hq/rubocop/issues/6794
+Rails/HttpStatus:
+  Enabled: false
+
 Security:
   Severity: warning
 
