@@ -3,6 +3,7 @@
 ########################################
 
 AllCops:
+  TargetRubyVersion: 2.4.6
   Exclude:
     - 'db/schema.rb'
     - 'node_modules/**/*'
