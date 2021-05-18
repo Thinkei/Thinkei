@@ -1,0 +1,11 @@
+########################################
+# EmploymentHero Shared Rubocop Config #
+########################################
+# rubocop-rails ~> 2.10.1
+# https://docs.rubocop.org/rubocop-rails/cops_rails.html
+
+Rails:
+  Severity: warning
+
+Rails/HttpStatus:
+  Enabled: false
