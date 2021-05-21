@@ -1,0 +1,8 @@
+########################################
+# EmploymentHero Shared Rubocop Config #
+########################################
+# rubocop-performance ~> 1.11.3
+# https://docs.rubocop.org/rubocop-performance/cops_performance.html
+
+Performance:
+  Severity: warning
