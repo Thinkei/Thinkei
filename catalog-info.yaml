@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: thinkei
+  tags:
+    - internal
+    - public
+    - yaml
+  annotations:
+    github.com/project-slug: Thinkei/thinkei
+spec:
+  type: service
+  system: find-work
+  lifecycle: production
